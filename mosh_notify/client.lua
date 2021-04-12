@@ -1,5 +1,5 @@
 RegisterNetEvent("mosh_notify:notify")
-AddEventHandler("mosh_notify:notify", function(title, description, theme, type, duration)
+AddEventHandler("mosh_notify:notify", function(title, description, theme, type, duration, iconUrl)
 	SendNUIMessage({
 		action = "notify",
 		title = title,
